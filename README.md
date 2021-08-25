@@ -1,21 +1,31 @@
 # ListFilter
-
-**TODO: Add description**
-
+Count odd elements in a list
+___
+## Requisites
+- Elixir
+- Erlang
+- Git
+___
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_filter` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:list_filter, "~> 0.1.0"}
-  ]
-end
+Clone this repository
+```bash
+git clone https://github.com/gabshs/ign_elx_challenge2.git
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_filter](https://hexdocs.pm/list_filter).
-
+Open the project
+```bash
+cd ign_elx_challenge2
+```
+Run the following command
+```bash
+iex -S mix
+````
+Call ListFilter passing a list
+```elixir
+ListFilter.call/1
+```
+____
+## Tests
+To run tests, execute the following command
+```bash
+mix test
+```
